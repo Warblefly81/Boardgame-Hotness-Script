@@ -1,6 +1,7 @@
 library(httr)
 library(xml2)
 library(dplyr)
+library(purrr)
 
 get_hotness_games <- function() {
   url <- "https://www.boardgamegeek.com/xmlapi2/hot?boardgamepage=1"
